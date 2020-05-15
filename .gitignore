@@ -1,0 +1,14 @@
+# ignore all logs
+*.log
+# macOS Files
+.DS_Store
+
+# Edition Directory
+edit_files/
+
+# Font
+*.fnt
+*.fon
+*.otf
+*.ttf
+
