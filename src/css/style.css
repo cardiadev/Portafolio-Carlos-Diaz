@@ -13,10 +13,9 @@ body {
   background: linear-gradient(
     90deg,
     rgba(67, 206, 162, 1) 0%,
-    rgba(67, 206, 162, 1) 0%,
-    rgba(24, 90, 157, 1) 100%
+    rgba(195, 20, 50, 1) 0%,
+    rgba(36, 11, 54, 1) 100%
   );
-
   background-size: 400% 400%;
   -webkit-animation: gradientBackground 20s ease infinite;
   -moz-animation: gradientBackground 20s ease infinite;
@@ -60,6 +59,14 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+p {
+  text-align: center;
+  line-height: 1.5em;
+  margin: 0em 5em;
+}
+h1 {
+  font-size: 3em;
 }
 
 .box {
